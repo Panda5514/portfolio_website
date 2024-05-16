@@ -1,0 +1,92 @@
+/* Main CSS for the portfolio website */
+body {
+    font-family: 'Circular', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-scrolled {
+    background: #444;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #000;
+    color: #f5f5f5;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #000;
+    color: #fff;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item p {
+    margin: 5px 0;
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+}
